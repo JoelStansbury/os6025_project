@@ -16,11 +16,9 @@ repository for simulation scripts used for our operating systems project
     - `git push` to send your changes to the repo that is available online (i.e. https://github.com/JoelStansbury/os6025_project)
     - `git pull` to retreive any changes made by others
     - We all have local copies of the repo and git is useful because we can revert to any state at any point, so mistakes are not the end of the world. Just try to get a basic understanding of a command before you execute it to avoid the cleanup which can be time consuming.
-  
+7. (Optional) Add ssh-key
+    This makes pushing and pulling easier <br>
+    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
-
-
-### Add ssh-key
-This makes pushing and pulling to the repo easier <br>
-https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
+## Objective
+TBD
