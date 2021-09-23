@@ -15,7 +15,7 @@ repository for simulation scripts used for our operating systems project
     - `git commit` to commit the changes to your local copy of the repo
     - `git push` to send your changes to the repo that is available online (i.e. https://github.com/JoelStansbury/os6025_project)
     - `git pull` to retreive any changes made by others
-    - We all have local copies of the repo and git is useful because we can revert to any state at any point, so mistakes are not the end of the world. Just try to get a basic understanding of a command before you execute it
+    - We all have local copies of the repo and git is useful because we can revert to any state at any point, so mistakes are not the end of the world. Just try to get a basic understanding of a command before you execute it to avoid the cleanup which can be time consuming.
   
 
 
