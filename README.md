@@ -21,6 +21,6 @@ repository for simulation scripts used for our operating systems project
 
 
 ### Add ssh-key
-This makes pushing and pulling to the repo easier
+This makes pushing and pulling to the repo easier <br>
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
