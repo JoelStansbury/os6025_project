@@ -1,24 +1,63 @@
 # os6025_project
-repository for simulation scripts used for our operating systems project
+_repository for simulation scripts used for our operating systems project_
+
+> I'm not sure how much we'll use this, I'm just kinda playing around right now
+
+## Getting Started
+
+### Creating the Environment
+* Option 1 (pip)
+    - Install python from https://www.python.org/downloads/ if you don't already have it.
+    - From within a terminal, navigate to the root folder that this document is in.
+
+    ```bash
+        C:\users\USERNAME>cd PATH/TO/os6025_project
+    ```
+    - Install the required libraries
+    ```bash
+        python -m pip install -r requirements.txt
+    ```
 
 
-## Getting Started (Development)
-1. Install `git` from https://git-scm.com/download/win (keep all defaults)
-2. Install `jdk-11` https://www.oracle.com/java/technologies/downloads/#java11-windows (you'll need to create an account or login to download)
-3. create a folder for git. Mine is `C:\Users\stans\Documents\Projects\git` but anywhere is fine. Also, it doesn't need to be called `git` I just like that name
-4. open up a terminal `Start Menu`>`cmd.exe` and navigate to your `git` folder
-5. After installing `git` you can execute `git clone https://github.com/JoelStansbury/os6025_project.git` to download the repository to your local machine
-6. (If you're new to git) See https://www.atlassian.com/git/glossary for descriptions of common git commands.
-    The most important ones are
-    - `git status` to show what has changed since your last commit
-    - `git add --all` to prepare all of the changes for commit
-    - `git commit` to commit the changes to your local copy of the repo
-    - `git push` to send your changes to the repo that is available online (i.e. https://github.com/JoelStansbury/os6025_project)
-    - `git pull` to retreive any changes made by others
-    - We all have local copies of the repo and git is useful because we can revert to any state at any point, so mistakes are not the end of the world. Just try to get a basic understanding of a command before you execute it to avoid the cleanup which can be time consuming.
-7. (Optional) Add ssh-key
-    This makes pushing and pulling easier <br>
-    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+* Option 2 (conda)
+    - (If you don't have it already) Install `Miniconda` from https://docs.conda.io/en/latest/miniconda.html _(Anaconda is also fine)_
+    - Open up a conda terminal.<br>
+       - From the start menu, search for `Anaconda` and `Anaconda Prompt (Miniconda3)` should pop up.<br>
+       - The terminal should look like this
 
-## Objective
-TBD
+    ```bash
+        (base) C:\users\USERNAME>
+    ```
+    - From within the terminal, navigate to the root folder that this document is in.
+
+    ```bash
+        cd PATH/TO/os6025_project
+    ```
+    - Create the project environment.<br>
+      This will create a python environment with all of the libraries required to run the notebooks
+
+    ```bash
+        conda env create -f environment.yml --prefix ./envs/os-project
+    ```
+
+    - Activate the new environment
+
+    ```bash
+        conda activate envs/os-project
+    ```
+    > `(base) ...` Should now be `(os-project) ...`
+ 
+
+## Running the Notebook
+- With the environment active launch `jupyterlab` via
+```bash
+(os-project) ...\os6025_project>jupyter lab
+```
+
+> This will open up a new tab in a web-browser
+
+- Open the `notebooks/` folder and double click `Analysis.ipynb` to open the notebook.
+- To run a single cell, click on it and press `Shift` + `Enter`
+- To run all cells click on `Kernel` (in the toolbar) and then `Restart Kernel and Run All`
+
+
