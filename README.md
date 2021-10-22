@@ -1,6 +1,10 @@
 # os6025_project
 _repository for simulation scripts used for our operating systems project_
 
+
+See `notebooks\Analysis.html` to see a copy of the notebook
+
+
 > I'm not sure how much we'll use this, I'm just kinda playing around right now
 
 ## Getting Started
